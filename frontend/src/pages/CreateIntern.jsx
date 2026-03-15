@@ -1,7 +1,7 @@
 import { useState } from "react";
 import API from "../services/api";
 import { useNavigate } from "react-router-dom";
-import "../styles/CreateIntern.css";
+import "../styles/createIntern.css";
 
 function CreateIntern(){
 
