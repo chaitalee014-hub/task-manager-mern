@@ -1,0 +1,41 @@
+.create-intern-page{
+display:flex;
+justify-content:center;
+padding:40px;
+background:#f3f4f6;
+min-height:100vh;
+}
+
+.create-card{
+background:white;
+padding:30px;
+border-radius:10px;
+width:450px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-group{
+margin-bottom:15px;
+display:flex;
+flex-direction:column;
+}
+
+.form-group input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.btn-create{
+background:#2563eb;
+color:white;
+padding:10px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn-create:hover{
+background:#1e40af;
+}

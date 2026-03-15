@@ -1,0 +1,99 @@
+.home-container{
+font-family: Arial, sans-serif;
+background:#f3f4f6;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:#2563eb;
+color:white;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:600px;
+margin:auto;
+margin-bottom:25px;
+}
+
+
+
+/* COMPANY SECTION */
+
+.company-section{
+display:flex;
+align-items:center;
+justify-content:center;
+padding:60px 40px;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.company-text{
+max-width:500px;
+}
+
+.company-text h2{
+margin-bottom:15px;
+}
+
+.company-image img{
+width:400px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* FEATURES */
+
+.features{
+text-align:center;
+padding:60px 20px;
+}
+
+.feature-grid{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.feature-card{
+background:white;
+padding:20px;
+width:250px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.feature-card:hover{
+transform:translateY(-5px);
+}
+
+/* FOOTER */
+
+.footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+.footer-contact{
+margin-top:10px;
+}
+
+.copyright{
+margin-top:15px;
+font-size:14px;
+opacity:0.8;
+}

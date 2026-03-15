@@ -1,0 +1,36 @@
+.announcement-page{
+width:90%;
+margin:40px auto;
+}
+
+.announcement-form{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.announcement-card{
+background:white;
+padding:15px;
+margin-top:15px;
+border-radius:8px;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.delete-announcement{
+background:#ef4444;
+color:white;
+border:none;
+padding:6px 12px;
+border-radius:5px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.delete-announcement:hover{
+background:#dc2626;
+}

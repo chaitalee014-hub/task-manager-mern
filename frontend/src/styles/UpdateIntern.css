@@ -1,0 +1,40 @@
+.update-page{
+display:flex;
+justify-content:center;
+align-items:center;
+height:80vh;
+}
+
+.update-card{
+width:400px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.update-card form{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.update-card input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.update-card button{
+background:#2563eb;
+color:white;
+border:none;
+padding:10px;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.update-card button:hover{
+background:#1e40af;
+}
