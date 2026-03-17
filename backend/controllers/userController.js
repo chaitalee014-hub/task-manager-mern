@@ -45,8 +45,6 @@ res.status(500).json({message:error.message});
 };
 
 
-
-
 // GET ALL INTERNS
 export const getUsers = async(req,res)=>{
 
